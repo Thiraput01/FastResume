@@ -8,15 +8,12 @@
     introData,
     projects,
     activities,
-    certs,
     sourceLink,
     technologies,
-    workExperiences,
-    interests
+    interests,
   } from "./data";
 
   let editMode = false;
-
   function toggleMode() {
     editMode = !editMode;
   }
@@ -133,7 +130,9 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left mb-2">Projects</h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left mb-2">
+      Projects & Experiences
+    </h2>
     <hr />
 
     <ul>
@@ -141,18 +140,25 @@
         <li>
           <HideToggle />
           {#if project.url !== ""}
-            <a href={`https://${project.url}`} target="_blank" rel="noreferrer">
+            <a href={`${project.url}`} target="_blank" rel="noreferrer">
               <strong>{project.name}</strong>
-            </a>
+            </a> <i>{project.date}</i>
           {:else}
-            <strong>{project.name}</strong>
+            <strong>{project.name}</strong> <i>{project.date}</i>
           {/if}
-          - <i>{project.stack}</i>
           <p>
-            {project.details}
+            {#if project.details}
+              <ul>
+                {#each project.details as detail}
+                  <li><strong>•</strong> {detail}</li>
+                {/each}
+              </ul>
+            {:else}
+              No details provided.
+            {/if}
           </p>
           <a href="https://{project.github}" target="_blank" rel="noreferrer">
-              <strong>{project.github}</strong>
+            <strong>{project.github}</strong>
           </a>
         </li>
       {/each}
@@ -161,41 +167,46 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left mb-2">Activities</h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left mb-2">
+      Activities & Awards
+    </h2>
     <hr />
 
     <ul>
       {#each activities as act}
         <li>
           <HideToggle />
-          <strong>{act.name}</strong>
-          <p>{act.details}</p>
+          <strong>{act.name}</strong> <i>{act.date}</i>
+          <ul>
+            {#each act.details as detail}
+              <li><strong>•</strong> {detail}</li>
+            {/each}
+          </ul>
         </li>
       {/each}
     </ul>
   </section>
 
-  <section>
-  <HideToggle />
-  <h2 class="text-2xl print:text-4xl uppercase text-left mb-2">Interests</h2>
-  <hr />
+  <!-- <section>
+    <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left mb-2">Interests</h2>
+    <hr />
 
-  <ul>
-    {#each interests as interest}
-      <li>
-        <HideToggle />
-        <strong>{interest.name}</strong> - <i>{interest.details}</i>
-      </li>
-    {/each}
-  </ul>
-</section>
+    <ul>
+      {#each interests as interest}
+        <li>
+          <HideToggle />
+          <strong>{interest.name}</strong> - <i>{interest.details}</i>
+        </li>
+      {/each}
+    </ul>
+  </section> -->
 
   <footer class="print-only">
     (See in <a href={fullVersionLink} target="_blank" rel="noopener">web</a>
     for a more updated version or view
     <a href={sourceLink} target="_blank" rel="noopener">source code</a>)
   </footer>
-  
 </main>
 
 <style lang="postcss">
@@ -223,16 +234,16 @@
   section > ul {
     @apply text-left list-disc pl-8;
   }
-  
+
   :global(.print-only) {
     display: none;
   }
- 
+
   :global(main.display-mode .hide-toggle) {
     display: none;
   }
 
-  li{
+  li {
     margin: 10px;
   }
 
@@ -240,7 +251,7 @@
     * {
       @apply text-xs;
     }
-    
+
     :global(.print-only) {
       display: none;
     }
@@ -266,15 +277,12 @@
       padding: 10px;
     }
 
-    li{
-    margin: 10px;
+    li {
+      margin: 10px;
     }
 
     @page {
-    margin: 10px; /* Removes default margins for the printed page */
+      margin: 10px; /* Removes default margins for the printed page */
     }
-
   }
 </style>
-
-

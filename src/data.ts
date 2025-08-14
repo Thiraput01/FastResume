@@ -1,139 +1,187 @@
 export const fullVersionLink = "https://resume.narze.live";
-export const sourceLink = "https://github.com/CUknot/resume";
+export const sourceLink = "https://github.com/Thiraput01";
 
+/* ──────────────── INTRO ──────────────── */
 export const introData = {
-  name: "Kittipat Jusingha",
-  jobTitle: "Fullstack Software Engineer",
-  phone: "0625149799",
-  email: "kknot2004@gmail.com",
-  github: "CUknot",
-  linkedin: "กิตติพัตน์-จูสิงห์-75a53b335",
+  name: "Thiraput Khongmuak",
+  jobTitle: "",
+  phone: "+66 98-830-9441",
+  email: "thiraputball@gmail.com",
+  github: "Thiraput01",
+  linkedin: "thiraput-khongmuak-a5a378308",
   location: "Bangkok, Thailand",
   website: "",
 };
 
-
+/* ──────────────── SKILLS ──────────────── */
 export const technologies = [
   {
     section: "Languages",
-    details: [
-      "C++",
-      "Python",
-      "Java",
-      "JavaScript",
-      "TypeScript",
-      "Node.js",
-      "SQL",
-    ],
+    details: ["Python", "JavaScript", "Go", "C++", "Java", "SQL"],
   },
   {
     section: "Frameworks",
-    details: ["ReactJS", "NextJS", "TailwindCSS"],
+    details: [
+      "PyTorch",
+      "HuggingFace",
+      "LangChain",
+      "LangGraph",
+      "Ollama",
+      "FastAPI",
+      "React",
+      "Next.js",
+      "Node.js",
+      "TailwindCSS",
+    ],
+  },
+  {
+    section: "Databases",
+    details: ["MongoDB", "PostgreSQL", "BigQuery", "Qdrant", "Redis"],
   },
   {
     section: "Tools",
-    details: ["Git", "GitHub", "Docker"],
-  },
-  {
-    section: "Other",
-    details: ["AWS", "Vercel"],
+    details: [
+      "Git",
+      "GitHub",
+      "Docker",
+      "Google Cloud Platform (GCP)",
+      "Google Kubernetes Engine (GKE)",
+      "Vertex AI",
+      "RoboFlow",
+    ],
   },
 ];
 
 export const educations = [
   {
     head: "Chulalongkorn University",
-    details: "B.Eng. Computer Engineering, 2022-Present (Expected May 2026) (GPAX 3.79)",
-  },
-];
-
-/*export const workExperiences = [
-
-];*/
-
-export const activities = [
-  {
-    name: "depa x AWS depa Growth lab",
-    details: [
-      "resulting in personalized product recommendations across multiple channels with improved user experience by designing automated user promotion management and custom AI personalities to optimize retail processes and increase customer satisfaction."
-    ],
-  },
-  {
-    name: "Mathematics Olympiad Camp (POSN Camp 1&2) SRIAYUDHYA SCHOOL",
-    details: [
-      "Engaged in intensive training sessions and collaborated with peers to solve challenging mathematical problems that enhanced problem-solving skills in advanced mathematics, including algebra, geometry, number theory, and combinatorics.",
-    ],
+    details: "B.Eng. Computer Engineering, 2022-2026 (GPAX 3.54)",
   },
 ];
 
 export const projects = [
   {
-    name: "Space Ace",
-    stack: "Java, JavaFX",
-    details: "A 2D arcade game, where the player controls a spaceship to avoid obstacles.",
-    url: "github.com/2110215-ProgMeth/project-2022-2-space-ace",
-    github: "github.com/2110215-ProgMeth/project-2022-2-space-ace",
+    name: "NECTEC Internship",
+    date: "May 2025 – July 2025",
+    details: [
+      "Developed a Thai-language voice assistant using the Gemini Live API, integrating conversational capabilities into a robotic platform.",
+      "Implemented Gemini Tools calling for web search, file retrieval, memory management, and function-specific execution.",
+      "Searched for relevant research papers on LLMs for healthcare applications in a robotic assistant project.",
+    ],
+    url: "",
+    github: "",
   },
   {
-    name: "Chess",
-    stack: "JavaScript, React, TailwindCSS",
-    details: "A web-based chess game that designed to challenge player's strategies, developed with ReactJS.",
-    url: "github.com/CUknot/react-chess",
-    github: "github.com/2110215-ProgMeth/project-2022-2-space-ace",
+    name: "Traffy-Caesar",
+    date: "April 2025 - May 2025",
+    details: [
+      "Built a data visualization dashboard using Streamlit, Plotly, and Pydeck, displaying clustering results, PCA plots, geospatial insights, and cluster summaries generated via Gemini LLM.",
+      "Collaborated with data scientists to develop a K-Means clustering model incorporating both text and image embeddings, trained with BigQueryML and optimized using silhouette scores.",
+      "Deployed an end-to-end data pipeline with GCP services: Cloud Storage, BigQuery, Dataproc, and Cloud Composer to support real-time updates.",
+      "Led the team in designing the system pipeline and delegated tasks across members to ensure efficient implementation.",
+    ],
+    url: "https://www.youtube.com/watch?v=Fb3qgDOR-NY",
+    github: "",
   },
   {
-    name: "Web Application showing dust location at locations in Bangkok districts",
-    stack: "JavaScript, React, CSS, Firebase",
-    details: "A webpage that monitors dust levels across different locations in Bangkok, developed with ReactJS for the user interface and integrated with Firebase to fetch real-time data.",
-    url: "github.com/SecretKr/embed-final-project",
-    github: "github.com/SecretKr/embed-final-project",
+    name: "CP-GENIE",
+    date: "April 2025 - May 2025",
+    details: [
+      "Built a chatbot with memory that specialized in the Department of Computer Engineering at Chulalongkorn University, using LangChain and FastAPI.",
+      "Implemented a RAG system with hybrid search, ingesting content from faculty pages, student handbooks, and departmental PDFs.",
+      "Researched and implemented multiple RAG variants: Agentic RAG, Contextual RAG, and Corrective RAG to test and compare their performance using LLM-as-a-Judge.",
+      "Served the system via FastAPI, enabling users to interact with and compare different RAG versions through dedicated endpoints (e.g., /agentic, /contextual, /corrective).",
+    ],
+    url: "https://github.com/CP-RektMart/CP-GENIE",
+    github: "",
   },
   {
-    name: "To-Do List Web Application",
-    stack: "Node.js, Postman",
-    details: "A To-Do list web app that helps users plan and organize their daily tasks, using ExpressJS for routing and controllers.",
-    url: "github.com/CUknot/ESS_Final_Project",
-    github: "github.com/CUknot/ESS_Final_Project",
+    name: "Traffy Fondue Multilabel Classification",
+    date: "March 2025",
+    details: [
+      "Developed and fine-tuned a multilabel classification model using WangchanBERTa and PhayathaiBERT, applying text preprocessing, data augmentation, and iterative stratification to handle class imbalance in the Traffy Fondue dataset.",
+      "Achieved a macro F1-score of 0.5058 on Kaggle, ranking 6th place, and experimented with ensemble models (3-fold WangchanBERTa, 4-fold PhayathaiBERT) to enhance performance.",
+    ],
+    url: "",
+    github: "",
   },
   {
-    name: "ASCII Donut Animation",
-    stack: "React, Vite, TypeScript, JavaScript, HTML Canvas",
-    details: "A web-based ASCII animation rendering a spinning 3D donut, inspired by a1k0n's donut math blog post.",
-    url: "github.com/CUknot/Donut-Web",
-    github: "github.com/CUknot/Donut-Web",
-  },
-  {
-    name: "Breast Cancer Classification Model",
-    stack: "Python, Scikit-Learn, NumPy, Pandas, TensorFlow/PyTorch",
-    details: "A machine learning model that classifies breast cancer types based on gene expression data using MLP and CNN architectures.",
-    url: "www.kaggle.com/code/kittipatjusingha/breast-cancer-classification",
-    github: "www.kaggle.com/code/kittipatjusingha/breast-cancer-classification",
-  },
-  {
-    name: "Project Lists",
-    stack: "Next.js, React, TypeScript, TailwindCSS",
-    details: "A web that displays lists of projects. It has features for displaying project details, creating new projects via a form, and navigating between project pages. The backend API is powered by Next.js API routes.",
-    url: "github.com/CUknot/project_lists",
-    github: "github.com/CUknot/project_lists",
+    name: "CIBMTR – Equity in post-HCT Survival Predictions",
+    date: "December 2024 – January 2025",
+    details: [
+      "Designed predictive models to predict survival rate for allogeneic Hematopoietic Cell Transplantation patients.",
+      "Developed multiple models, including LightGBM, CatBoost, and XGBoost, achieving an average cross-validation score of 0.68 using the Stratified Concordance Index (C-Index) as a custom evaluation metric.",
+    ],
+    url: "https://github.com/Thiraput01/CIBMTR-Equity-in-post-HCT-Survival-Predictions",
 
+    github: "",
+  },
+  {
+    name: "Chess to PGN Project",
+    date: "December 2024",
+    details: [
+      "Designed and developed a complete pipeline to convert raw chess match video input into PGN format.",
+      "Trained a YOLO11m model on a custom chess piece dataset, achieving an average mAP50 of 0.993.",
+      "Researched and used various image processing and machine learning models like Faster-RCNN, DETR, and YOLO11m to compare their results.",
+      "Labeled a custom chess board dataset using RoboFlow, gathering data from provided sources.",
+    ],
+    url: "",
+    github: "",
   },
 ];
 
-/*export const certs = [
-
-];*/
-
-export let interests = [
+/* ──────────────── ACTIVITIES / ACHIEVEMENTS ──────────────── */
+export const activities = [
   {
-    name: "Coding",
-    details: "Exploring algorithms, data structures, and problem-solving."
+    name: "SCBX x AIAT: Ethical Finance Hackathon 2025 - Financial Analysis Agent – 2nd Runner-Up",
+    date: "June 2025",
+    details: [
+      "Developed a modular, multi-agent financial analysis system using LangGraph for intent classification, specialized agent routing, and dynamic reasoning for market trend predictions and financial Q&A.",
+      "Integrated a self-correcting agent loop powered by Qwen2.5-7B-Instruct and Typhoon2.1-Gemma3-4B, enhancing response accuracy and reliability.",
+    ],
   },
   {
-    name: "Productivity & Life-hacks",
-    details: "Learning new techniques to enhance personal and professional productivity."
+    name: "Super AI Engineer Season 5",
+    date: "June 2025",
+    details: [
+      "Placed in Top 3 across all 4 hackathons: 1st Runner-Up (Liver Fibrosis), 2nd Runner-Up (GSMaP Bias Correction, Cognitive Profiling, Financial Analysis).",
+      "Gained hands-on experience applying advanced ML and data analysis techniques across domains including healthcare, climate science, cognitive science, and finance.",
+    ],
+  },
+
+  {
+    name: "I-Squared Hackathon – 2nd Runner-Up",
+    date: "February 2025",
+    details: [
+      "Achieved 1st place on the final leaderboard for model performance in a motorcycle rider type classification task based on CCTV image inputs on Kaggle, with a score of 0.99707.",
+      "Applied various techniques such as Data augmentation, K-fold cross-validation, ensemble methods, and model selection to enhance model generalization and performance.",
+      "Explored multiple CNN architectures, including ResNet18, ResNet50, EfficientNets, and Vision Transformer, selecting EfficientNetB1 for its performance on smaller datasets and greater efficiency compared to others.",
+    ],
   },
   {
-    name: "Mathematics",
-    details: "Applying mathematical concepts to solve coding challenges."
-  }
+    name: "depa × AWS depa Growth Lab – GenAI Hackathon",
+    date: "October 2024",
+    details: [
+      "Proposed an AI-powered Virtual Personal Shopper (VPS) using generative AI, resulting in personalized product recommendations across multiple channels.",
+      "Improved user experience by designing automated promotion management and custom AI personalities.",
+    ],
+  },
+  {
+    name: "ChaiyoGCP Season 4",
+    date: "May – June 2024",
+    details: [
+      "Achieved Tier 1 rewards by completing Google Cloud Platform (GCP) Season 4, gaining proficiency in GCP tools for AI/ML applications.",
+      "Built expertise in Google Cloud AI/ML, applying sentiment analysis, speech and image processing, BigQuery-ML, TensorFlow, and Vertex AI for production-ready generative models and machine learning systems.",
+    ],
+  },
 ];
+
+/* ──────────────── INTERESTS (Not used) ──────────────── */
+// export const interests = [
+//   { name: "Coding", details: "Algorithmic puzzles & clean system design." },
+//   { name: "Mathematics", details: "Applying advanced maths to ML research." },
+//   {
+//     name: "Productivity / Life-hacks",
+//     details: "Continuous optimisation of workflows.",
+//   },
+// ];
