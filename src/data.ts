@@ -84,6 +84,23 @@ export const projects = [
     github: "",
   },
   {
+    name: "Teaching Assistant on Software Development Practice (Backend)",
+    date: "January 2025 - April 2025",
+    details: [
+      "Assisted students with backend development concepts that use Node.js and MongoDB.",
+      "Conducted review sessions and provided one-on-one tutoring to students struggling with course content.",
+      "Graded assignments and exams, providing constructive feedback to help students improve.",
+    ],
+  },
+  {
+    name: "PicMePls",
+    date: "January 2025 - April 2025",
+    details: [
+      "Used Scrum methodology when developing for iterative progress, continuous feedback, and team collaboration using Next.js + Typescript and the backend using the Fiber framework in Golang",
+      "Actively participated in sprint planning, stand-up meetings, code reviews, and retrospectives to enhance project efficiency and code quality.",
+    ],
+  },
+  {
     name: "CP-GENIE",
     date: "April 2025 - May 2025",
     details: [
@@ -126,6 +143,26 @@ export const projects = [
       "Labeled a custom chess board dataset using RoboFlow, gathering data from provided sources.",
     ],
     url: "",
+    github: "",
+  },
+  {
+    name: "Courspora Notifier Project",
+    date: "October 2024 - November 2024",
+    details: [
+      "Developed a Discord bot with Discord.js, resulting in automated and timely user updates.",
+      "Processed updates daily by building a data pipeline with Python Selenium, enabling real-time web scraping from the website “Courspora.com” and immediate information delivery to the users.",
+      "Deployed the application Using Docker Containers and Google Kubernetes Engine (GKE).",
+    ],
+  },
+  {
+    name: "TEEYAI",
+    date: "August 2024 - September 2024",
+    details: [
+      "Designed an efficient web-based ordering system, enhancing user satisfaction and operational efficiency.",
+      "Developed CRUD operation for RESTful API using Golang and MongoDB.",
+      "Designed a database schema and modeled the backend architecture.",
+    ],
+    url: "https://github.com/TEEYAI",
     github: "",
   },
 ];
