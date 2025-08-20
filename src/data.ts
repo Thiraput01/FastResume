@@ -78,7 +78,6 @@ export const projects = [
       "Built a data visualization dashboard using Streamlit, Plotly, and Pydeck, displaying clustering results, PCA plots, geospatial insights, and cluster summaries generated via Gemini LLM.",
       "Collaborated with data scientists to develop a K-Means clustering model incorporating both text and image embeddings, trained with BigQueryML and optimized using silhouette scores.",
       "Deployed an end-to-end data pipeline with GCP services: Cloud Storage, BigQuery, Dataproc, and Cloud Composer to support real-time updates.",
-      "Led the team in designing the system pipeline and delegated tasks across members to ensure efficient implementation.",
     ],
     url: "https://www.youtube.com/watch?v=Fb3qgDOR-NY",
     github: "",
@@ -91,6 +90,8 @@ export const projects = [
       "Conducted review sessions and provided one-on-one tutoring to students struggling with course content.",
       "Graded assignments and exams, providing constructive feedback to help students improve.",
     ],
+    url: "",
+    github: "",
   },
   {
     name: "PicMePls",
@@ -99,6 +100,8 @@ export const projects = [
       "Used Scrum methodology when developing for iterative progress, continuous feedback, and team collaboration using Next.js + Typescript and the backend using the Fiber framework in Golang",
       "Actively participated in sprint planning, stand-up meetings, code reviews, and retrospectives to enhance project efficiency and code quality.",
     ],
+    url: "https://github.com/CP-RektMart/pic-me-pls-backend",
+    github: "",
   },
   {
     name: "CP-GENIE",
