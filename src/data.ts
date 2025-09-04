@@ -65,7 +65,7 @@ export const projects = [
     date: "May 2025 – July 2025",
     details: [
       "Developed a Thai-language voice assistant using the Gemini Live API, integrating conversational capabilities into a robotic platform.",
-      "Implemented Gemini Tools calling for web search, file retrieval, memory management, and function-specific execution.",
+      "Implemented Gemini Tools calling for web search, memory management, and function-specific execution.",
       "Searched for relevant research papers on LLMs for healthcare applications in a robotic assistant project.",
     ],
     url: "",
@@ -156,6 +156,8 @@ export const projects = [
       "Processed updates daily by building a data pipeline with Python Selenium, enabling real-time web scraping from the website “Courspora.com” and immediate information delivery to the users.",
       "Deployed the application Using Docker Containers and Google Kubernetes Engine (GKE).",
     ],
+    url: "",
+    github: "",
   },
   {
     name: "TEEYAI",
