@@ -97,8 +97,8 @@ export const projects = [
     name: "PicMePls",
     date: "January 2025 - April 2025",
     details: [
-      "Used Scrum methodology when developing for iterative progress, continuous feedback, and team collaboration using Next.js + Typescript and the backend using the Fiber framework in Golang",
-      "Actively participated in sprint planning, stand-up meetings, code reviews, and retrospectives to enhance project efficiency and code quality.",
+      "Developed a matchmaking platform designed to connect customers with professional photographers for weddings, graduations, and other important events.",
+      "Built with Next.js + Typescript for the frontend and a Golang backend using the Fiber framework, following a Scrum methodology to ensure agile development and high code quality.",
     ],
     url: "https://github.com/CP-RektMart/pic-me-pls-backend",
     github: "",
@@ -157,6 +157,16 @@ export const projects = [
       "Deployed the application Using Docker Containers and Google Kubernetes Engine (GKE).",
     ],
     url: "",
+    github: "",
+  },
+  {
+    name: "Larngear Festival 2024 Website, Core Team Developer",
+    date: "September 2024",
+    details: [
+      "Collaborated with a team of developers to create a user-friendly website for the Larngear Festival 2024 using Next.js + Typescript.",
+      "Implemented responsive design principles to ensure optimal viewing experiences across various devices and screen sizes.",
+    ],
+    url: "https://larngear-festival-2024.github.io/larngear-festival-2024/",
     github: "",
   },
   {
