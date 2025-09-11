@@ -75,9 +75,10 @@ export const projects = [
     name: "Traffy-Caesar",
     date: "April 2025 - May 2025",
     details: [
+      "Designed a system to analyze and categorize public complaints from Traffy Fondue, aiming to automate issue classification and help route complaints to the appropriate organizations.",
+      "Developed a daily ETL pipeline using Apache Airflow to pull traffic reports from Traffy Fondue, preprocess them with PySpark on Dataproc, and store the structured data into Google Cloud Storage.",
+      "Trained a K-Means clustering model combining both text and image embeddings using BigQueryML and optimized using silhouette scores.",
       "Built a data visualization dashboard using Streamlit, Plotly, and Pydeck, displaying clustering results, PCA plots, geospatial insights, and cluster summaries generated via Gemini LLM.",
-      "Collaborated with data scientists to develop a K-Means clustering model incorporating both text and image embeddings, trained with BigQueryML and optimized using silhouette scores.",
-      "Deployed an end-to-end data pipeline with GCP services: Cloud Storage, BigQuery, Dataproc, and Cloud Composer to support real-time updates.",
     ],
     url: "https://www.youtube.com/watch?v=Fb3qgDOR-NY",
     github: "",
