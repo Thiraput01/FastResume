@@ -186,6 +186,16 @@ export const projects = [
 /* ──────────────── ACTIVITIES / ACHIEVEMENTS ──────────────── */
 export const activities = [
   {
+    name: "YES Camp - MITR PHOL Young Entrepreneur Strengthsfinding Camp",
+    date: "September 2025",
+    details: [
+      'Winner of the "GenAI for Sugar Industry Knowledge & Best Practice Hub" batch. Built an AI-powered Knowledge Hub using various AWS services.',
+      "Implemented hybrid search with hierarchical chunking and OCR integration to deliver precise, domain-specific answers. ",
+      "Compared inference speed and performance trade-offs across various RAG hyperparameters, including multiple RAG methods such as query decomposition and Graph-based RAG, to optimize real-time results.",
+      "Conducted an ROI analysis, resulting in ~800 hours/day of time savings and THB 3.1M/month in productivity gains.",
+    ],
+  },
+  {
     name: "SCBX x AIAT: Ethical Finance Hackathon 2025 - Financial Analysis Agent – 2nd Runner-Up",
     date: "June 2025",
     details: [
