@@ -10,7 +10,6 @@
     activities,
     sourceLink,
     technologies,
-    interests,
   } from "./data";
 
   let editMode = false;
