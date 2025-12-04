@@ -61,7 +61,18 @@ export const educations = [
 
 export const projects = [
   {
-    name: "NECTEC Internship",
+    name: "Drills.pro, Low-code platform for training and deploying machine learning model",
+    date: "August 2025 – December 2025",
+    details: [
+      "Led development of Drills.pro, a low-code platform enabling users with minimal coding experience to train and deploy machine learning models.",
+      "Designed and implemented a scalable microservices architecture with gRPC, Docker, an API Gateway, and Triton Inference Server for efficient training and inference workflows.",
+      "Applied Scrum and clean architecture principles to ensure maintainability, extensibility, and smooth cross-team collaboration.",
+    ],
+    url: "https://drills.pro",
+    github: "",
+  },
+  {
+    name: "National Electronics and Computer Technology Center (NECTEC) Internship",
     date: "May 2025 – July 2025",
     details: [
       "Developed a Thai-language voice assistant using the Gemini Live API, integrating conversational capabilities into a robotic platform.",
