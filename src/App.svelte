@@ -149,7 +149,11 @@
             {#if project.details}
               <ul>
                 {#each project.details as detail}
-                  <li><strong>•</strong> {detail}</li>
+                  <li>
+                    <HideToggle />
+                    <strong>•</strong>
+                    {detail}
+                  </li>
                 {/each}
               </ul>
             {:else}
