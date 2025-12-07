@@ -182,7 +182,11 @@
           <strong>{act.name}</strong> <i>{act.date}</i>
           <ul>
             {#each act.details as detail}
-              <li><strong>•</strong> {detail}</li>
+              <li>
+                <HideToggle />
+                <strong>•</strong>
+                {detail}
+              </li>
             {/each}
           </ul>
         </li>
