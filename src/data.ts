@@ -61,7 +61,7 @@ export const educations = [
   },
 ];
 
-export const projects = [
+export const experiences = [
   {
     name: "Data Scientist Intern, ttb bank",
     date: "January 2026 – May 2026",
@@ -71,17 +71,6 @@ export const projects = [
       "Analyze customer data to enable personalized in-app banners and push notifications.",
       "Utilize Databricks, Python, SQL, and Microsoft Power Platform to enhance user engagement and conversion through personalized content delivery.",
     ],
-  },
-  {
-    name: "Drills.pro, Low-code platform for training and deploying machine learning model",
-    date: "August 2025 – January 2026",
-    details: [
-      "Led development of Drills.pro, a low-code platform enabling users with minimal coding experience to train and deploy machine learning models.",
-      "Designed and implemented a scalable microservices architecture with gRPC, Docker, an API Gateway, and Triton Inference Server for efficient training and inference workflows.",
-      "Applied Scrum and clean architecture principles to ensure maintainability, extensibility, and smooth cross-team collaboration.",
-    ],
-    url: "https://drills.pro",
-    github: "",
   },
   {
     name: "National Electronics and Computer Technology Center (NECTEC) Internship",
@@ -95,6 +84,31 @@ export const projects = [
     github: "",
   },
   {
+    name: "Teaching Assistant on Software Development Practice (Backend)",
+    date: "January 2025 - April 2025",
+    details: [
+      "Assisted students with backend development concepts that use Node.js and MongoDB.",
+      "Conducted review sessions and provided one-on-one tutoring to students struggling with course content.",
+      "Graded assignments and exams, providing constructive feedback to help students improve.",
+    ],
+    url: "",
+    github: "",
+  },
+];
+
+export const projects = [
+  {
+    name: "Drills.pro, Low-code platform for training and deploying machine learning model",
+    date: "August 2025 – January 2026",
+    details: [
+      "Led development of Drills.pro, a low-code platform enabling users with minimal coding experience to train and deploy machine learning models.",
+      "Designed and implemented a scalable microservices architecture with gRPC, Docker, an API Gateway, and Triton Inference Server for efficient training and inference workflows.",
+      "Applied Scrum and clean architecture principles to ensure maintainability, extensibility, and smooth cross-team collaboration.",
+    ],
+    url: "https://drills.pro",
+    github: "",
+  },
+  {
     name: "Traffy-Caesar",
     date: "April 2025 - May 2025",
     details: [
@@ -104,17 +118,6 @@ export const projects = [
       "Built a data visualization dashboard using Streamlit, Plotly, and Pydeck, displaying clustering results, PCA plots, geospatial insights, and cluster summaries generated via Gemini LLM.",
     ],
     url: "https://www.youtube.com/watch?v=Fb3qgDOR-NY",
-    github: "",
-  },
-  {
-    name: "Teaching Assistant on Software Development Practice (Backend)",
-    date: "January 2025 - April 2025",
-    details: [
-      "Assisted students with backend development concepts that use Node.js and MongoDB.",
-      "Conducted review sessions and provided one-on-one tutoring to students struggling with course content.",
-      "Graded assignments and exams, providing constructive feedback to help students improve.",
-    ],
-    url: "",
     github: "",
   },
   {

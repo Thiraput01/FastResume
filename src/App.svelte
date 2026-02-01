@@ -4,6 +4,7 @@
   import HideToggle from "./HideToggle.svelte";
   import {
     educations,
+    experiences,
     fullVersionLink,
     introData,
     projects,
@@ -129,9 +130,52 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left mb-2">
-      Projects & Experiences
-    </h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left mb-2">Experience</h2>
+    <hr />
+
+    <ul>
+      {#each experiences as experience}
+        <li>
+          <HideToggle />
+          {#if experience.url !== ""}
+            <a href={`${experience.url}`} target="_blank" rel="noreferrer">
+              <strong>{experience.name}</strong>
+            </a> <i>{experience.date}</i>
+          {:else}
+            <strong>{experience.name}</strong> <i>{experience.date}</i>
+          {/if}
+          <p>
+            {#if experience.details}
+              <ul>
+                {#each experience.details as detail}
+                  <li>
+                    <HideToggle />
+                    <strong>•</strong>
+                    {detail}
+                  </li>
+                {/each}
+              </ul>
+            {:else}
+              No details provided.
+            {/if}
+          </p>
+          {#if experience.github}
+            <a
+              href="https://{experience.github}"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>{experience.github}</strong>
+            </a>
+          {/if}
+        </li>
+      {/each}
+    </ul>
+  </section>
+
+  <section>
+    <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left mb-2">Projects</h2>
     <hr />
 
     <ul>
