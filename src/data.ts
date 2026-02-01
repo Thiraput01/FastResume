@@ -1,3 +1,5 @@
+import app from "./main";
+
 export const fullVersionLink = "https://resume.narze.live";
 export const sourceLink = "https://github.com/Thiraput01";
 
@@ -17,7 +19,7 @@ export const introData = {
 export const technologies = [
   {
     section: "Languages",
-    details: ["Python", "JavaScript", "Go", "C++", "Java", "SQL"],
+    details: ["Python", "SQL", "JavaScript", "Go", "C++", "Java"],
   },
   {
     section: "Frameworks",
@@ -42,8 +44,8 @@ export const technologies = [
     section: "Tools",
     details: [
       "Git",
-      "GitHub",
       "Docker",
+      "Amazon Web Services (AWS)",
       "Google Cloud Platform (GCP)",
       "Google Kubernetes Engine (GKE)",
       "Vertex AI",
@@ -61,8 +63,18 @@ export const educations = [
 
 export const projects = [
   {
+    name: "Data Scientist Intern, ttb bank",
+    date: "January 2026 – May 2026",
+    details: [
+      "Support ttb’s Retail Customer Intelligence (RCI) team in driving digital sales through data-driven marketing strategies.",
+      "Track campaign performance and deliver actionable insights to key stakeholders.",
+      "Analyze customer data to enable personalized in-app banners and push notifications.",
+      "Utilize Databricks, Python, SQL, and Microsoft Power Platform to enhance user engagement and conversion through personalized content delivery.",
+    ],
+  },
+  {
     name: "Drills.pro, Low-code platform for training and deploying machine learning model",
-    date: "August 2025 – December 2025",
+    date: "August 2025 – January 2026",
     details: [
       "Led development of Drills.pro, a low-code platform enabling users with minimal coding experience to train and deploy machine learning models.",
       "Designed and implemented a scalable microservices architecture with gRPC, Docker, an API Gateway, and Triton Inference Server for efficient training and inference workflows.",
