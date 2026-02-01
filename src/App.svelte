@@ -14,37 +14,58 @@
   } from "./data";
 
   let editMode = false;
+  let showHeader = false;
+
   function toggleMode() {
     editMode = !editMode;
   }
 </script>
 
-<header
-  class="web-only text-center p-4 sm:p-6 bg-green-500 text-white w-screen"
->
-  <h1 class="text-4xl mb-3">Resumette</h1>
-  <h3>
-    <button on:click={toggleMode} class="underline text-lg">
-      {editMode ? "[View]" : "[Edit]"}
+{#if showHeader}
+  <div class="web-only absolute top-0 right-0 p-4 z-50">
+    <button
+      on:click={() => (showHeader = false)}
+      class="bg-red-500 hover:bg-red-600 text-white px-2 py-1 rounded shadow"
+    >
+      Hide
     </button>
-    <button on:click={() => window.print()} class="underline text-lg">
-      [Print]
+  </div>
+  <header
+    class="web-only text-center p-4 sm:p-6 bg-green-500 text-white w-screen"
+  >
+    <h1 class="text-4xl mb-3">Resumette</h1>
+    <h3>
+      <button on:click={toggleMode} class="underline text-lg">
+        {editMode ? "[View]" : "[Edit]"}
+      </button>
+      <button on:click={() => window.print()} class="underline text-lg">
+        [Print]
+      </button>
+    </h3>
+    <p>
+      Printer-friendly standard résumé template by
+      <a href="https://github.com/narze/resume">narze</a> (used
+      <a href="https://github.com/Leomotors/resumette">Leomotor</a>'s version of
+      the template), any HTML tags with
+      <code>web-only</code> CSS class will be hidden on print.
+    </p>
+    <p>
+      You can toggle
+      <button on:click={toggleMode} class="underline"> [Edit Mode] </button>
+      to hide some sections before printing.
+    </p>
+    (<a href={sourceLink} target="_blank" rel="noopener">Source</a>)
+  </header>
+{:else}
+  <div class="web-only absolute top-0 right-0 p-4 z-50">
+    <button
+      on:click={() => (showHeader = true)}
+      class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-2 py-1 rounded shadow opacity-50 hover:opacity-100"
+    >
+      Menu
     </button>
-  </h3>
-  <p>
-    Printer-friendly standard résumé template by
-    <a href="https://github.com/narze/resume">narze</a> (used
-    <a href="https://github.com/Leomotors/resumette">Leomotor</a>'s version of
-    the template), any HTML tags with
-    <code>web-only</code> CSS class will be hidden on print.
-  </p>
-  <p>
-    You can toggle
-    <button on:click={toggleMode} class="underline"> [Edit Mode] </button>
-    to hide some sections before printing.
-  </p>
-  (<a href={sourceLink} target="_blank" rel="noopener">Source</a>)
-</header>
+  </div>
+{/if}
 
 <main
   class="text-center p-4 m-0 md:m-8 xl:mx-auto max-w-screen-xl {editMode
