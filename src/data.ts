@@ -71,6 +71,8 @@ export const experiences = [
       "Analyze customer data to enable personalized in-app banners and push notifications.",
       "Utilize Databricks, Python, SQL, and Microsoft Power Platform to enhance user engagement and conversion through personalized content delivery.",
     ],
+    url: "",
+    github: "",
   },
   {
     name: "National Electronics and Computer Technology Center (NECTEC) Internship",
