@@ -156,38 +156,59 @@
 
     <ul>
       {#each experiences as experience}
-        <li>
+        <li class="mb-6">
           <HideToggle />
-          {#if experience.url !== ""}
-            <a href={`${experience.url}`} target="_blank" rel="noreferrer">
-              <strong>{experience.name}</strong>
-            </a> <i>{experience.date}</i>
-          {:else}
-            <strong>{experience.name}</strong> <i>{experience.date}</i>
-          {/if}
-          <p>
+          <div class="flex justify-between items-start">
+            <div class="text-left">
+              <div class="font-bold text-lg leading-tight">
+                {experience.position}
+              </div>
+              <div class="text-base font-semibold text-gray-700">
+                {#if experience.url !== ""}
+                  <a
+                    href={`${experience.url}`}
+                    target="_blank"
+                    rel="noreferrer"
+                    class="hover:underline"
+                  >
+                    {experience.company}
+                  </a>
+                {:else}
+                  {experience.company}
+                {/if}
+              </div>
+            </div>
+            <div class="italic text-sm shrink-0 text-right ml-4">
+              {experience.date}
+            </div>
+          </div>
+
+          <div class="mt-2 text-justify">
             {#if experience.details}
-              <ul>
+              <ul class="list-disc pl-5 space-y-1">
                 {#each experience.details as detail}
                   <li>
                     <HideToggle />
-                    <strong>•</strong>
-                    {detail}
+                    <!-- <strong>•</strong> -->
+                    <span class="print:text-sm">{detail}</span>
                   </li>
                 {/each}
               </ul>
             {:else}
               No details provided.
             {/if}
-          </p>
+          </div>
           {#if experience.github}
-            <a
-              href="https://{experience.github}"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <strong>{experience.github}</strong>
-            </a>
+            <div class="mt-1">
+              <a
+                href="https://{experience.github}"
+                target="_blank"
+                rel="noreferrer"
+                class="text-sm text-gray-500 hover:text-black"
+              >
+                GitHub: {experience.github}
+              </a>
+            </div>
           {/if}
         </li>
       {/each}

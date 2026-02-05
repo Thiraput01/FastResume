@@ -63,8 +63,9 @@ export const educations = [
 
 export const experiences = [
   {
-    name: "Data Scientist Intern, ttb bank",
-    date: "January 2026 – May 2026",
+    position: "Data Scientist Intern",
+    company: "TMBThanachart Bank Public Company Limited",
+    date: "January 2026 – Present",
     details: [
       "Support ttb’s Retail Customer Intelligence (RCI) team in driving digital sales through data-driven marketing strategies.",
       "Track campaign performance and deliver actionable insights to key stakeholders.",
@@ -75,7 +76,8 @@ export const experiences = [
     github: "",
   },
   {
-    name: "National Electronics and Computer Technology Center (NECTEC) Internship",
+    position: "Research Assistant Intern",
+    company: "NECTEC",
     date: "May 2025 – July 2025",
     details: [
       "Developed a Thai-language voice assistant using the Gemini Live API, integrating conversational capabilities into a robotic platform.",
@@ -86,7 +88,8 @@ export const experiences = [
     github: "",
   },
   {
-    name: "Teaching Assistant on Software Development Practice (Backend)",
+    position: "Teaching Assistant on Software Development Practice (Backend)",
+    company: "Chulalongkorn University",
     date: "January 2025 - April 2025",
     details: [
       "Assisted students with backend development concepts that use Node.js and MongoDB.",
