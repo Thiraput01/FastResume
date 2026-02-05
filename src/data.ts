@@ -77,7 +77,7 @@ export const experiences = [
   },
   {
     position: "Research Assistant Intern",
-    company: "NECTEC",
+    company: "National Electronics and Computer Technology Center (NECTEC)",
     date: "May 2025 – July 2025",
     details: [
       "Developed a Thai-language voice assistant using the Gemini Live API, integrating conversational capabilities into a robotic platform.",

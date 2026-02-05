@@ -156,14 +156,15 @@
 
     <ul>
       {#each experiences as experience}
-        <li class="mb-6">
+        <li class="mb-4">
           <HideToggle />
-          <div class="flex justify-between items-start">
+          <div class="flex justify-between items-baseline">
             <div class="text-left">
-              <div class="font-bold text-lg leading-tight">
-                {experience.position}
-              </div>
-              <div class="text-base font-semibold text-gray-700">
+              <span class="font-bold text-lg leading-tight"
+                >{experience.position}</span
+              >
+              <span class="mx-1 text-gray-500">|</span>
+              <span class="text-base font-semibold text-gray-700">
                 {#if experience.url !== ""}
                   <a
                     href={`${experience.url}`}
@@ -176,7 +177,7 @@
                 {:else}
                   {experience.company}
                 {/if}
-              </div>
+              </span>
             </div>
             <div class="italic text-sm shrink-0 text-right ml-4">
               {experience.date}
