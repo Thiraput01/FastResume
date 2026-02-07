@@ -67,9 +67,8 @@ export const experiences = [
     company: "TMBThanachart Bank Public Company Limited",
     date: "January 2026 – Present",
     details: [
-      "Support ttb’s Retail Customer Intelligence (RCI) team in driving digital sales through data-driven marketing strategies.",
-      "Track campaign performance and deliver actionable insights to key stakeholders.",
-      "Analyze customer data to enable personalized in-app banners and push notifications.",
+      "Support ttb’s Retail Customer Intelligence (RCI) team in driving sales through data-driven marketing strategies.",
+      "Track campaign performance and deliver actionable insights.",
       "Utilize Databricks, Python, SQL, and Microsoft Power Platform to enhance user engagement and conversion through personalized content delivery.",
     ],
     url: "",
@@ -82,7 +81,7 @@ export const experiences = [
     details: [
       "Developed a Thai-language voice assistant using the Gemini Live API, integrating conversational capabilities into a robotic platform.",
       "Implemented Gemini Tools calling for web search, memory management, and function-specific execution.",
-      "Searched for relevant research papers on LLMs for healthcare applications in a robotic assistant project.",
+      "Conducted literature review on LLMs for healthcare, informing the design of an AI-driven robotic assistant.",
     ],
     url: "",
     github: "",
@@ -92,9 +91,8 @@ export const experiences = [
     company: "Chulalongkorn University",
     date: "January 2025 - April 2025",
     details: [
-      "Assisted students with backend development concepts that use Node.js and MongoDB.",
-      "Conducted review sessions and provided one-on-one tutoring to students struggling with course content.",
-      "Graded assignments and exams, providing constructive feedback to help students improve.",
+      "Supported students in backend development, covering Node.js, MongoDB, and API testing with Postman.",
+      "Reviewed and graded programming assignments, providing constructive feedback to help students improve.",
     ],
     url: "",
     github: "",
@@ -104,11 +102,27 @@ export const experiences = [
 export const projects = [
   {
     name: "Drills.pro, Low-code platform for training and deploying machine learning model",
-    date: "August 2025 – January 2026",
+    date: "August 2025 – Present",
     details: [
-      "Led development of Drills.pro, a low-code platform enabling users with minimal coding experience to train and deploy machine learning models.",
-      "Designed and implemented a scalable microservices architecture with gRPC, Docker, an API Gateway, and Triton Inference Server for efficient training and inference workflows.",
-      "Applied Scrum and clean architecture principles to ensure maintainability, extensibility, and smooth cross-team collaboration.",
+      // --- ML ENGINEER / MLOps (High Impact) ---
+      "Engineered a distributed training pipeline using Python, Celery, and RabbitMQ, enabling asynchronous processing of heavy deep learning jobs without blocking user interactions.",
+      "Optimized model training performance by 55.5% utilizing PyTorch Compiler and mixed-precision training.",
+      "Deployed a high-throughput inference system using NVIDIA Triton Inference Server, achieving +43% throughput via TensorRT optimization and dynamic batching.",
+      "Implemented an automated artifact lifecycle that exports trained models to ONNX for inference and PyTorch format for fine-tuning, storing assets securely in Google Cloud Storage.",
+
+      // --- BACKEND ENGINEER (Go/Golang Focus) ---
+      "Architected a scalable microservices ecosystem using Go (1.25+) and Fiber v3, adhering to Clean Architecture principles to decouple domain logic from infrastructure.",
+      "Designed a high-performance API Gateway as the single entry point, handling JWT authentication, request routing, and protocol translation for 4+ downstream services.",
+      "Implemented strictly typed inter-service communication using gRPC and Protocol Buffers, ensuring reliable data contracts between Go and Python services.",
+      "Designed an Event-Driven Architecture using RabbitMQ to decouple the orchestration service from the Python training workers, ensuring system resilience during high load.",
+
+      // --- FRONTEND / FULL STACK (Next.js Focus) ---
+      "Built a responsive, server-side rendered web application using Next.js 15, TypeScript, and Tailwind CSS, ensuring optimal SEO and load times.",
+      "Integrated TanStack Query for efficient server-state management, implementing optimistic updates and caching strategies for real-time training status monitoring.",
+
+      // --- INFRASTRUCTURE & LEADERSHIP ---
+      "Worked in a cross-functional team to establish the development standards including Git workflows, Docker containerization for all services, and CI/CD pipelines.",
+      "Orchestrated the deployment of a polyglot stack (Go, Python, Node.js) using Docker Compose for development and prepared Kubernetes manifests for production scaling.",
     ],
     url: "https://drills.pro",
     github: "",
