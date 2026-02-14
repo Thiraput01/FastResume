@@ -66,7 +66,7 @@ export const experiences = [
     date: "January 2026 – Present",
     details: [
       "Support ttb’s Retail Customer Intelligence (RCI) team in driving sales through data-driven marketing strategies.",
-      "Track campaign performance and deliver actionable insights.",
+      "Developed a realtime performance tracking using Databricks, Power BI, and Power Automate, enabling the team to monitor campaign KPIs and take immediate actions..",
       "Utilize Databricks, Python, SQL, and Microsoft Power Platform to enhance user engagement and conversion through personalized content delivery.",
     ],
     url: "",
