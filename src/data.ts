@@ -55,7 +55,7 @@ export const technologies = [
 export const educations = [
   {
     head: "Chulalongkorn University",
-    details: "B.Eng. Computer Engineering, 2022-2026 (GPAX 3.54)",
+    details: "B.Eng. Computer Engineering, 2022-2026 (GPAX 3.59)",
   },
 ];
 
