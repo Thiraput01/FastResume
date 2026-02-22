@@ -65,9 +65,8 @@ export const experiences = [
     company: "TMBThanachart Bank Public Company Limited",
     date: "January 2026 – Present",
     details: [
-      "Support ttb’s Retail Customer Intelligence (RCI) team in driving sales through data-driven marketing strategies.",
-      "Developed a realtime performance tracking using Databricks, Power BI, and Power Automate, enabling the team to monitor campaign KPIs and take immediate actions..",
-      "Utilize Databricks, Python, SQL, and Microsoft Power Platform to enhance user engagement and conversion through personalized content delivery.",
+      "Support ttb's Retail Customer Intelligence (RCI) team in driving sales through data-driven marketing, utilizing Databricks, Python, SQL, and Microsoft Power Platform for personalized content delivery.",
+      "Developed a real-time performance tracking dashboard using Databricks, Power BI, and Power Automate, enabling the team to monitor campaign KPIs and act immediately.",
     ],
     url: "",
     github: "",
@@ -77,9 +76,8 @@ export const experiences = [
     company: "National Electronics and Computer Technology Center (NECTEC)",
     date: "May 2025 – July 2025",
     details: [
-      "Developed a Thai-language voice assistant using the Gemini Live API, integrating conversational capabilities into a robotic platform.",
-      "Implemented Gemini Tools calling for web search, memory management, and function-specific execution.",
-      "Conducted literature review on LLMs for healthcare, informing the design of an AI-driven robotic assistant.",
+      "Developed a Thai-language voice assistant using the Gemini Live API with Tools calling (web search, memory management, function execution), integrated into a robotic platform.",
+      "Conducted literature review on LLMs for healthcare to inform the design of an AI-driven robotic assistant.",
     ],
     url: "",
     github: "",
@@ -89,8 +87,18 @@ export const experiences = [
     company: "Chulalongkorn University",
     date: "January 2025 - April 2025",
     details: [
-      "Supported students in backend development, covering Node.js, MongoDB, and API testing with Postman.",
-      "Reviewed and graded programming assignments, providing constructive feedback to help students improve.",
+      "Supported backend development coursework (Node.js, MongoDB, Postman), graded assignments, and provided constructive feedback to students.",
+    ],
+    url: "",
+    github: "",
+  },
+  {
+    position: "Larngear Festival 2024 Website, Core Team Developer",
+    company: "Chulalongkorn University",
+    date: "September 2024",
+    details: [
+      "Collaborated with a team of developers to create a user-friendly website for the Larngear Festival 2024 using Next.js + Typescript.",
+      "Implemented responsive design principles to ensure optimal viewing experiences across various devices and screen sizes.",
     ],
     url: "",
     github: "",
@@ -102,26 +110,13 @@ export const projects = [
     name: "Drills.pro, Low-code platform for training and deploying machine learning model",
     date: "August 2025 – Present",
     details: [
-      "Led development of Drills.pro, a low-code platform enabling users with minimal coding experience to train and deploy machine learning models.",
-      // --- ML ENGINEER / MLOps (High Impact) ---
-      "Engineered a distributed training pipeline using Python, Celery, and RabbitMQ, enabling asynchronous processing of heavy deep learning jobs without blocking user interactions.",
-      "Optimized model training performance by 55.5% utilizing PyTorch Compiler and mixed-precision training.",
-      "Deployed a high-throughput inference system using NVIDIA Triton Inference Server, achieving +43% throughput via TensorRT optimization and dynamic batching.",
-      "Implemented an automated artifact lifecycle that exports trained models to ONNX for inference and PyTorch format for fine-tuning, storing assets securely in Google Cloud Storage.",
-
-      // --- BACKEND ENGINEER (Go/Golang Focus) ---
-      "Architected a scalable microservices ecosystem using Go, adhering to Clean Architecture principles to decouple domain logic from infrastructure.",
-      "Designed a high-performance API Gateway as the single entry point, handling JWT authentication, request routing, and protocol translation for 4+ downstream services.",
-      "Implemented strictly typed inter-service communication using gRPC and Protocol Buffers, ensuring reliable data contracts between Go and Python services.",
-      "Designed an Event-Driven Architecture using RabbitMQ to decouple the orchestration service from the Python training workers, ensuring system resilience during high load.",
-
-      // --- FRONTEND / FULL STACK (Next.js Focus) ---
-      "Built a responsive, server-side rendered web application using Next.js 15, TypeScript, and Tailwind CSS, ensuring optimal SEO and load times.",
-      "Integrated TanStack Query for efficient server-state management, implementing optimistic updates and caching strategies for real-time training status monitoring.",
-
-      // --- INFRASTRUCTURE & LEADERSHIP ---
-      "Worked in a cross-functional team to establish the development standards including Git workflows, Docker containerization for all services, and CI/CD pipelines.",
-      "Orchestrated the deployment of a polyglot stack (Go, Python, Node.js) using Docker Compose for development and prepared Kubernetes manifests for production scaling.",
+      "Led development of Drills.pro, a low-code platform enabling users with minimal coding experience to train and deploy ML models.",
+      "Engineered a distributed training pipeline using Python, Celery, and RabbitMQ for async deep learning jobs, optimizing training performance by 55.5% via PyTorch Compiler and mixed-precision training.",
+      "Deployed NVIDIA Triton Inference Server with TensorRT and dynamic batching (+43% throughput), with automated model export to ONNX/PyTorch formats stored in GCS.",
+      "Architected a Go microservices ecosystem (Clean Architecture) with an API Gateway handling JWT auth, request routing, and protocol translation for 4+ downstream services.",
+      "Implemented gRPC/Protobuf inter-service communication and an Event-Driven Architecture via RabbitMQ to decouple orchestration from training workers.",
+      "Built a server-side rendered Next.js 15 app with TypeScript and Tailwind CSS, integrating TanStack Query for real-time training status monitoring with optimistic caching.",
+      "Established Git workflows, Docker containerization, CI/CD pipelines, and Kubernetes manifests for a polyglot stack (Go, Python, Node.js).",
     ],
     url: "https://drills.pro",
     github: "",
@@ -130,10 +125,9 @@ export const projects = [
     name: "Traffy-Caesar",
     date: "April 2025 - May 2025",
     details: [
-      "Designed a system to analyze and categorize public complaints from Traffy Fondue, aiming to automate issue classification and help route complaints to the appropriate organizations.",
-      "Developed a daily ETL pipeline using Apache Airflow to pull traffic reports from Traffy Fondue, preprocess them with PySpark on Dataproc, and store the structured data into Google Cloud Storage.",
-      "Trained a K-Means clustering model combining both text and image embeddings using BigQueryML and optimized using silhouette scores.",
-      "Built a data visualization dashboard using Streamlit, Plotly, and Pydeck, displaying clustering results, PCA plots, geospatial insights, and cluster summaries generated via Gemini LLM.",
+      "Built a system to auto-classify and route public complaints from Traffy Fondue to appropriate organizations.",
+      "Developed a daily ETL pipeline with Apache Airflow, PySpark on Dataproc, and GCS, then trained a K-Means clustering model on combined text and image embeddings (BigQueryML) optimized via silhouette scores.",
+      "Built a Streamlit/Plotly/Pydeck dashboard displaying clustering results, PCA plots, geospatial insights, and Gemini-generated cluster summaries.",
     ],
     url: "https://www.youtube.com/watch?v=Fb3qgDOR-NY",
     github: "",
@@ -152,10 +146,8 @@ export const projects = [
     name: "CP-GENIE",
     date: "April 2025 - May 2025",
     details: [
-      "Built a chatbot with memory that specialized in the Department of Computer Engineering at Chulalongkorn University, using LangChain and FastAPI.",
-      "Implemented a RAG system with hybrid search, ingesting content from faculty pages, student handbooks, and departmental PDFs.",
-      "Researched and implemented multiple RAG variants: Agentic RAG, Contextual RAG, and Corrective RAG to test and compare their performance using LLM-as-a-Judge.",
-      "Served the system via FastAPI, enabling users to interact with and compare different RAG versions through dedicated endpoints (e.g., /agentic, /contextual, /corrective).",
+      "Built a CU Computer Engineering-specialized chatbot with conversational memory using LangChain and FastAPI, with a hybrid-search RAG system ingesting faculty pages, student handbooks, and departmental PDFs.",
+      "Implemented and benchmarked Agentic, Contextual, and Corrective RAG variants using LLM-as-a-Judge, each served through dedicated FastAPI endpoints (/agentic, /contextual, /corrective) for direct comparison.",
     ],
     url: "https://github.com/CP-RektMart/CP-GENIE",
     github: "",
@@ -174,8 +166,7 @@ export const projects = [
     name: "CIBMTR – Equity in post-HCT Survival Predictions",
     date: "December 2024 – January 2025",
     details: [
-      "Designed predictive models to predict survival rate for allogeneic Hematopoietic Cell Transplantation patients.",
-      "Developed multiple models, including LightGBM, CatBoost, and XGBoost, achieving an average cross-validation score of 0.68 using the Stratified Concordance Index (C-Index) as a custom evaluation metric.",
+      "Developed LightGBM, CatBoost, and XGBoost survival prediction models for allogeneic HCT patients, achieving avg CV score of 0.68 using a custom Stratified C-Index metric.",
     ],
     url: "https://github.com/Thiraput01/CIBMTR-Equity-in-post-HCT-Survival-Predictions",
 
@@ -185,10 +176,9 @@ export const projects = [
     name: "Chess to PGN Project",
     date: "December 2024",
     details: [
-      "Designed and developed a complete pipeline to convert raw chess match video input into PGN format.",
-      "Trained a YOLO11m model on a custom chess piece dataset, achieving an average mAP50 of 0.993.",
-      "Researched and used various image processing and machine learning models like Faster-RCNN, DETR, and YOLO11m to compare their results.",
-      "Labeled a custom chess board dataset using RoboFlow, gathering data from provided sources.",
+      "Built a complete pipeline to convert chess match video to PGN format.",
+      "Trained YOLO11m on a custom chess piece dataset (mAP50: 0.993), benchmarked against Faster-RCNN and DETR for model selection.",
+      "Labeled a custom chess board dataset using RoboFlow.",
     ],
     url: "",
     github: "",
@@ -197,30 +187,17 @@ export const projects = [
     name: "Courspora Notifier Project",
     date: "October 2024 - November 2024",
     details: [
-      "Developed a Discord bot with Discord.js, resulting in automated and timely user updates.",
-      "Processed updates daily by building a data pipeline with Python Selenium, enabling real-time web scraping from the website “Courspora.com” and immediate information delivery to the users.",
-      "Deployed the application Using Docker Containers and Google Kubernetes Engine (GKE).",
+      "Developed a Discord bot (Discord.js) with a daily Python Selenium scraping pipeline to deliver real-time updates from Courspora.com to users.",
+      "Deployed the application using Docker Containers and Google Kubernetes Engine (GKE).",
     ],
     url: "",
-    github: "",
-  },
-  {
-    name: "Larngear Festival 2024 Website, Core Team Developer",
-    date: "September 2024",
-    details: [
-      "Collaborated with a team of developers to create a user-friendly website for the Larngear Festival 2024 using Next.js + Typescript.",
-      "Implemented responsive design principles to ensure optimal viewing experiences across various devices and screen sizes.",
-    ],
-    url: "https://larngear-festival-2024.github.io/larngear-festival-2024/",
     github: "",
   },
   {
     name: "TEEYAI",
     date: "August 2024 - September 2024",
     details: [
-      "Designed an efficient web-based ordering system, enhancing user satisfaction and operational efficiency.",
-      "Developed CRUD operation for RESTful API using Golang and MongoDB.",
-      "Designed a database schema and modeled the backend architecture.",
+      "Designed and built a web-based ordering system with RESTful CRUD APIs using Golang and MongoDB, including database schema design and backend architecture.",
     ],
     url: "https://github.com/TEEYAI",
     github: "",
@@ -230,12 +207,11 @@ export const projects = [
 /* ──────────────── ACTIVITIES / ACHIEVEMENTS ──────────────── */
 export const activities = [
   {
-    name: "YES Camp - MITR PHOL Young Entrepreneur Strengthsfinding Camp",
+    name: "YES Camp - MITR PHOL Young Entrepreneur Strengthsfinding Camp – ",
     date: "September 2025",
     details: [
       'Winner of the "GenAI for Sugar Industry Knowledge & Best Practice Hub" batch by developing an AI-powered Knowledge Hub using AWS services.',
-      "Implemented hybrid search with hierarchical chunking and OCR integration to deliver precise, domain-specific answers. ",
-      "Compared inference speed and performance trade-offs across various RAG hyperparameters, including multiple RAG methods such as query decomposition and Graph-based RAG, to optimize real-time results.",
+      "Implemented hybrid search with hierarchical chunking and OCR integration, benchmarking RAG variants (query decomposition, Graph-based RAG) on inference speed and performance trade-offs.",
       "Conducted an ROI analysis, resulting in ~800 hours/day of time savings and THB 3.1M/month in productivity gains.",
     ],
   },
@@ -251,8 +227,7 @@ export const activities = [
     name: "Super AI Engineer Season 5",
     date: "June 2025",
     details: [
-      "Placed in Top 3 across all 4 hackathons: 1st Runner-Up (Liver Fibrosis), 2nd Runner-Up (GSMaP Bias Correction, Cognitive Profiling, Financial Analysis).",
-      "Gained hands-on experience applying advanced ML and data analysis techniques across domains including healthcare, climate science, cognitive science, and finance.",
+      "Placed Top 3 across all 4 hackathons: 1st Runner-Up (Liver Fibrosis), 2nd Runner-Up (GSMaP Bias Correction, Cognitive Profiling, Financial Analysis), applying ML across healthcare, climate science, cognitive science, and finance.",
     ],
   },
 
@@ -260,25 +235,22 @@ export const activities = [
     name: "I-Squared Hackathon – 2nd Runner-Up",
     date: "February 2025",
     details: [
-      "Achieved 1st place on the final leaderboard for model performance in a motorcycle rider type classification task based on CCTV image inputs on Kaggle, with a score of 0.99707.",
-      "Applied various techniques such as Data augmentation, K-fold cross-validation, ensemble methods, and model selection to enhance model generalization and performance.",
-      "Explored multiple CNN architectures, including ResNet18, ResNet50, EfficientNets, and Vision Transformer, selecting EfficientNetB1 for its performance on smaller datasets and greater efficiency compared to others.",
+      "Achieved 1st place on Kaggle leaderboard (score: 0.99707) for motorcycle rider type classification from CCTV images.",
+      "Applied data augmentation, K-fold CV, and ensemble methods, evaluating ResNet18/50, EfficientNets, and ViT — selected EfficientNetB1 for superior performance on smaller datasets.",
     ],
   },
   {
     name: "depa × AWS depa Growth Lab – GenAI Hackathon",
     date: "October 2024",
     details: [
-      "Proposed an AI-powered Virtual Personal Shopper (VPS) using generative AI, resulting in personalized product recommendations across multiple channels.",
-      "Improved user experience by designing automated promotion management and custom AI personalities.",
+      "Proposed an AI-powered Virtual Personal Shopper using generative AI with personalized recommendations, automated promotion management, and custom AI personalities.",
     ],
   },
   {
     name: "ChaiyoGCP Season 4",
     date: "May – June 2024",
     details: [
-      "Achieved Tier 1 rewards by completing Google Cloud Platform (GCP) Season 4, gaining proficiency in GCP tools for AI/ML applications.",
-      "Built expertise in Google Cloud AI/ML, applying sentiment analysis, speech and image processing, BigQuery-ML, TensorFlow, and Vertex AI for production-ready generative models and machine learning systems.",
+      "Achieved Tier 1 rewards in GCP Season 4, building proficiency in sentiment analysis, speech/image processing, BigQuery-ML, TensorFlow, and Vertex AI for production ML and generative models.",
     ],
   },
 ];
