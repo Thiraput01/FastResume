@@ -156,7 +156,7 @@ export const projects = [
     date: "March 2025",
     details: [
       "Developed and fine-tuned a multilabel classification model using WangchanBERTa and PhayathaiBERT, applying text preprocessing, data augmentation, and iterative stratification to handle class imbalance in the Traffy Fondue dataset.",
-      "Achieved a macro F1-score of 0.5058 on Kaggle, ranking 6th place, and experimented with ensemble models (3-fold WangchanBERTa, 4-fold PhayathaiBERT) to enhance performance.",
+      "Achieved a macro F1-score of 0.5058 on Kaggle, ranking 6th place, and experimented with multiple modeling techniques to enhance performance.",
     ],
     url: "",
     github: "",
@@ -189,7 +189,7 @@ export const projects = [
       "Developed a Discord bot (Discord.js) with a daily Python Selenium scraping pipeline to deliver real-time updates from Courspora.com to users.",
       "Deployed the application using Docker Containers and Google Kubernetes Engine (GKE).",
     ],
-    url: "",
+    url: "https://github.com/Thiraput01/Courspora-notifier",
     github: "",
   },
   {
