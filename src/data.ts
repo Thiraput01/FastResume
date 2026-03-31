@@ -179,7 +179,7 @@ export const projects = [
       "Trained YOLO11m on a custom chess piece dataset (mAP50: 0.993), benchmarked against Faster-RCNN and DETR for model selection.",
       "Labeled a custom chess board dataset using RoboFlow.",
     ],
-    url: "",
+    url: "https://github.com/CP-RektMart/Cu-chess-detection-MeowImg",
     github: "",
   },
   {
@@ -198,7 +198,7 @@ export const projects = [
     details: [
       "Designed and built a web-based ordering system with RESTful CRUD APIs using Golang and MongoDB, including database schema design and backend architecture.",
     ],
-    url: "https://github.com/TEEYAI",
+    url: "https://github.com/JongSinister/TeeYai_2024",
     github: "",
   },
 ];
