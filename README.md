@@ -4,8 +4,6 @@ FastResume is a high-performance, AI-enhanced resume builder designed for develo
 
 ![FastResume Demo](./assests/Demo.mp4)
 
-Built with **Next.js 15**, **Turbopack**, and the **Vercel AI SDK**, it combines a data-driven JSON workflow with powerful Google Gemini-powered tailoring capabilities.
-
 ---
 
 ## 🌟 Key Features
@@ -44,7 +42,7 @@ Get a clean, ATS-friendly, and minimalist resume every time using the browser's 
 
 - **Framework**: Next.js 15 (App Router)
 - **Engine**: Turbopack for ultra-fast development
-- **AI**: Vercel AI SDK + Google Gemini (`gemini-1.5-flash-preview`)
+- **AI**: Vercel AI SDK + Google Gemini
 - **Styling**: Vanilla CSS + Tailwind CSS (for the UI)
 - **Language**: TypeScript
 
@@ -72,7 +70,7 @@ pnpm dev
 
 To use the AI Tailor Tool, you satisfy the requirements in the UI:
 
-1. Provide a **Gemini API Key** (stored locally in your browser).
+1. Provide a **Gemini API Key**.
 2. Paste the **Job Description**.
 3. Click **Tailor Resume**.
 
@@ -81,15 +79,19 @@ To use the AI Tailor Tool, you satisfy the requirements in the UI:
 ## ⚙️ Customization
 
 ### 📝 Your Resume Data (`lib/data.ts`)
+
 To personalize the resume, update the exported constants in `lib/data.ts`. This file serves as the source of truth for:
+
 - `introData`: Personal info, social links, and website.
 - `technologies`: Your skill categories and details.
 - `experiences` & `projects`: Use the simplified `url` field for any demo or source code links (the UI automatically detects GitHub links).
 - `activities`: Awards and extra-curriculars.
 
 ### 🤖 AI Configuration (`lib/ai-config.ts`)
+
 You can fine-tune the AI behavior without touching the backend logic:
-- **Change Model**: Update the `AI_MODEL` variable (default is `gemini-1.5-flash-preview`).
+
+- **Change Model**: Update the `AI_MODEL` variable (default is `gemini-3-flash-preview`).
 - **Tweak the Prompt**: Edit `getTailorPrompt` to change how the AI rewrites your bullet points (e.g., to focus more on results, specific keywords, or a different tone).
 
 ---

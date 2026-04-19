@@ -226,7 +226,7 @@ export default function ResumePage() {
               <span className="bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded text-[10px]">
                 βeta
               </span>
-              AI Tailor Tool (Gemini)
+              AI Tailor Tool
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
