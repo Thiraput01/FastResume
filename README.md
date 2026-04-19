@@ -17,14 +17,6 @@ Stop manually editing bullet points for every job application. FastResume includ
 - Prioritizes most recent experiences and mirrors ATS keywords effectively.
 - Returns a perfectly structured JSON that you can apply instantly.
 
-### 📐 One-Page Precision
-
-The layout is engineered with **aggressive spacing compression** to maximize one-page density. Every millimeter is reclaimed using:
-
-- Micro-margins (`2px` section gaps).
-- Automated font-size scaling for headers and names.
-- Tightened leading and line heights optimized for PDF export.
-
 ### 📝 Temporary Edit Mode
 
 Iterate in real-time without touching your source files.
@@ -32,7 +24,7 @@ Iterate in real-time without touching your source files.
 - The **Temporary Editor** allows you to paste or modify your resume JSON in a session-only environment.
 - Perfect for quick "what-if" scenarios or applying AI-tailored content before exporting.
 
-### 📄 Professional PDF Export
+### 📄 PDF Export
 
 Get a clean, ATS-friendly, and minimalist resume every time using the browser's native print-to-PDF functionality, enhanced by specific `@media print` CSS refinements.
 
@@ -40,10 +32,9 @@ Get a clean, ATS-friendly, and minimalist resume every time using the browser's 
 
 ## 🛠️ Technology Stack
 
-- **Framework**: Next.js 15 (App Router)
-- **Engine**: Turbopack for ultra-fast development
+- **Framework**: Next.js 15
 - **AI**: Vercel AI SDK + Google Gemini
-- **Styling**: Vanilla CSS + Tailwind CSS (for the UI)
+- **Styling**: Vanilla CSS + Tailwind CSS
 - **Language**: TypeScript
 
 ---
@@ -89,7 +80,7 @@ To personalize the resume, update the exported constants in `lib/data.ts`. This 
 
 ### 🤖 AI Configuration (`lib/ai-config.ts`)
 
-You can fine-tune the AI behavior without touching the backend logic:
+You can fine-tune the AI behavior with the folloing configuration:
 
 - **Change Model**: Update the `AI_MODEL` variable (default is `gemini-3-flash-preview`).
 - **Tweak the Prompt**: Edit `getTailorPrompt` to change how the AI rewrites your bullet points (e.g., to focus more on results, specific keywords, or a different tone).
