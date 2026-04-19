@@ -153,7 +153,7 @@ export default function ResumePage() {
             </button>
           </div>
           <header className="web-only text-center p-4 sm:p-6 bg-green-500 text-white w-screen relative">
-            <h1 className="text-3xl mb-3">Resumette</h1>
+            <h1 className="text-3xl mb-3">FastResume</h1>
             <h3 className="flex flex-wrap justify-center gap-3">
               <button onClick={toggleMode} className="underline text-lg">
                 {editMode ? "[View]" : "[Edit]"}
@@ -175,15 +175,6 @@ export default function ResumePage() {
               <a href="https://github.com/narze/resume" className="underline">
                 narze
               </a>{" "}
-              (used{" "}
-              <a
-                href="https://github.com/Leomotors/resumette"
-                className="underline"
-              >
-                Leomotor
-              </a>
-              's version of the template), any HTML tags with{" "}
-              <code>web-only</code> CSS class will be hidden on print.
             </p>
             <p className="mt-1 text-sm max-w-3xl mx-auto">
               You can toggle{" "}
@@ -598,18 +589,6 @@ export default function ResumePage() {
             ))}
           </ul>
         </section>
-
-        <footer className="print-only mt-8 text-center text-[9pt] border-t border-gray-300 pt-2 web-only">
-          (See in{" "}
-          <a href={fullVersionLink} target="_blank" rel="noopener noreferrer">
-            web
-          </a>{" "}
-          for a more updated version or view{" "}
-          <a href={sourceLink} target="_blank" rel="noopener noreferrer">
-            source code
-          </a>
-          )
-        </footer>
       </main>
     </>
   );
