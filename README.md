@@ -2,7 +2,7 @@
 
 FastResume is a high-performance, AI-enhanced resume builder designed for developers and technical professionals who need speed, precision, and ATS-optimized output.
 
-![FastResume Demo](./assests/Demo.mp4)
+![FastResume Demo](./assests/demo.gif)
 
 ---
 
