@@ -1,5 +1,3 @@
-import app from "./main";
-
 export const fullVersionLink = "https://resume.narze.live";
 export const sourceLink = "https://github.com/Thiraput01";
 
@@ -80,7 +78,6 @@ export const experiences = [
       "Conducted literature review on LLMs for healthcare to inform the design of an AI-driven robotic assistant.",
     ],
     url: "",
-    github: "",
   },
   {
     position: "Teaching Assistant on Software Development Practice (Backend)",
@@ -90,7 +87,6 @@ export const experiences = [
       "Supported backend development coursework (Node.js, MongoDB, Postman), graded assignments, and provided constructive feedback to students.",
     ],
     url: "",
-    github: "",
   },
   {
     position: "Larngear Festival 2024 Website, Core Team Developer",
@@ -101,7 +97,6 @@ export const experiences = [
       "Implemented responsive design principles to ensure optimal viewing experiences across various devices and screen sizes.",
     ],
     url: "",
-    github: "",
   },
 ];
 
@@ -118,7 +113,6 @@ export const projects = [
       "Built a server-side rendered Next.js 15 app with TypeScript and Tailwind CSS, integrating TanStack Query for real-time training status monitoring with optimistic caching.",
     ],
     url: "https://drills.pro",
-    github: "",
   },
   {
     name: "Traffy-Caesar",
@@ -129,7 +123,6 @@ export const projects = [
       "Built a Streamlit/Plotly/Pydeck dashboard displaying clustering results, PCA plots, geospatial insights, and Gemini-generated cluster summaries.",
     ],
     url: "https://www.youtube.com/watch?v=Fb3qgDOR-NY",
-    github: "",
   },
   {
     name: "PicMePls",
@@ -139,7 +132,6 @@ export const projects = [
       "Built with Next.js + Typescript for the frontend and a Golang backend using the Fiber framework, following a Scrum methodology to ensure agile development and high code quality.",
     ],
     url: "https://github.com/CP-RektMart/pic-me-pls-backend",
-    github: "",
   },
   {
     name: "CP-GENIE",
@@ -149,7 +141,6 @@ export const projects = [
       "Implemented and benchmarked Agentic, Contextual, and Corrective RAG variants using LLM-as-a-Judge, each served through dedicated FastAPI endpoints (/agentic, /contextual, /corrective) for direct comparison.",
     ],
     url: "https://github.com/CP-RektMart/CP-GENIE",
-    github: "",
   },
   {
     name: "Traffy Fondue Multilabel Classification",
@@ -159,7 +150,6 @@ export const projects = [
       "Achieved a macro F1-score of 0.5058 on Kaggle, ranking 6th place, and experimented with multiple modeling techniques to enhance performance.",
     ],
     url: "",
-    github: "",
   },
   {
     name: "CIBMTR – Equity in post-HCT Survival Predictions",
@@ -168,8 +158,6 @@ export const projects = [
       "Developed LightGBM, CatBoost, and XGBoost survival prediction models for allogeneic HCT patients, achieving avg CV score of 0.68 using a custom Stratified C-Index metric.",
     ],
     url: "https://github.com/Thiraput01/CIBMTR-Equity-in-post-HCT-Survival-Predictions",
-
-    github: "",
   },
   {
     name: "Chess to PGN Project",
@@ -180,7 +168,6 @@ export const projects = [
       "Labeled a custom chess board dataset using RoboFlow.",
     ],
     url: "https://github.com/CP-RektMart/Cu-chess-detection-MeowImg",
-    github: "",
   },
   {
     name: "Courspora Notifier Project",
@@ -190,7 +177,6 @@ export const projects = [
       "Deployed the application using Docker Containers and Google Kubernetes Engine (GKE).",
     ],
     url: "https://github.com/Thiraput01/Courspora-notifier",
-    github: "",
   },
   {
     name: "TEEYAI",
@@ -199,14 +185,13 @@ export const projects = [
       "Designed and built a web-based ordering system with RESTful CRUD APIs using Golang and MongoDB, including database schema design and backend architecture.",
     ],
     url: "https://github.com/JongSinister/TeeYai_2024",
-    github: "",
   },
 ];
 
 /* ──────────────── ACTIVITIES / ACHIEVEMENTS ──────────────── */
 export const activities = [
   {
-    name: "YES Camp - MITR PHOL Young Entrepreneur Strengthsfinding Camp – ",
+    name: "YES Camp - MITR PHOL Young Entrepreneur Strengthsfinding Camp",
     date: "September 2025",
     details: [
       'Winner of the "GenAI for Sugar Industry Knowledge & Best Practice Hub" batch by developing an AI-powered Knowledge Hub using AWS services.',
@@ -229,7 +214,6 @@ export const activities = [
       "Placed Top 3 across all 4 hackathons: 1st Runner-Up (Liver Fibrosis), 2nd Runner-Up (GSMaP Bias Correction, Cognitive Profiling, Financial Analysis), applying ML across healthcare, climate science, cognitive science, and finance.",
     ],
   },
-
   {
     name: "I-Squared Hackathon – 2nd Runner-Up",
     date: "February 2025",
@@ -253,13 +237,3 @@ export const activities = [
     ],
   },
 ];
-
-/* ──────────────── INTERESTS (Not used) ──────────────── */
-// export const interests = [
-//   { name: "Coding", details: "Algorithmic puzzles & clean system design." },
-//   { name: "Mathematics", details: "Applying advanced maths to ML research." },
-//   {
-//     name: "Productivity / Life-hacks",
-//     details: "Continuous optimisation of workflows.",
-//   },
-// ];
