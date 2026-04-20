@@ -90,9 +90,3 @@ You can fine-tune the AI behavior with the folloing configuration:
 ## 🤝 Credits
 
 Inspired by the minimalist standard résumé template by [narze](https://github.com/narze/resume) and refined through the [resumette](https://github.com/Leomotors/resumette) ecosystem.
-
----
-
-## 📜 License
-
-MIT
