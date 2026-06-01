@@ -16,6 +16,7 @@ Stop manually editing bullet points for every job application. FastResume includ
 - Ruthlessly prunes and rewrites your resume content to fit a strict **one-page constraint**.
 - Prioritizes most recent experiences and mirrors ATS keywords effectively.
 - Returns a perfectly structured JSON that you can apply instantly.
+- Improves resume quality, but does **not** guarantee HR responses or interview results.
 
 ### 📝 Temporary Edit Mode
 
