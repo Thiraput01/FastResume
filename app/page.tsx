@@ -310,6 +310,10 @@ export default function ResumePage() {
                 )}
               </button>
             </div>
+            <p className="mt-2 text-[11px] text-amber-700">
+              FastResume helps optimize résumé clarity and ATS alignment, but it
+              cannot guarantee recruiter replies or interview outcomes.
+            </p>
           </div>
 
           <textarea
